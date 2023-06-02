@@ -873,7 +873,7 @@ body::after {
   position: absolute;
   width: 100%;
   height: 100%;
-  left: 80%;
+  left: 90%;
   top: 0;
   background-color: #3DDABE;
 }
@@ -992,26 +992,6 @@ body::after {
   line-height: 1.2142857143;
   color: #4F4F4F;
   padding-right: 1.875rem;
-}
-
-.form__input:focus::-webkit-input-placeholder {
-  color: #333333;
-}
-
-.form__input:focus::-moz-placeholder {
-  color: #333333;
-}
-
-.form__input:focus:-ms-input-placeholder {
-  color: #333333;
-}
-
-.form__input:focus::-ms-input-placeholder {
-  color: #333333;
-}
-
-.form__input:focus::placeholder {
-  color: #333333;
 }
 
 .form__send {
@@ -1387,6 +1367,10 @@ body::after {
   }
 
   .testimonials::before {
+    display: none;
+  }
+
+  .testimonials::after {
     display: none;
   }
 
